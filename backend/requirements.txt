@@ -1,0 +1,17 @@
+# Core
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+torchtext==0.16.0
+
+# Data + Tokenization
+datasets==2.18.0
+tokenizers==0.15.0
+
+# Training utils
+torchmetrics==1.2.0
+tensorboard==2.15.1
+wandb==0.16.0
+
+# Visualization
+altair==5.2.0
