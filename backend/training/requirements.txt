@@ -1,17 +1,20 @@
-# Core
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
-torchtext==0.16.0
+# PyTorch (CUDA 11.8, compatible with T4)
+torch==2.5.1+cu121
+torchvision==0.16.0+cu121
+torchaudio==2.5.1+cu121
 
-# Data + Tokenization
+# Hugging Face datasets and tokenizers
 datasets==2.18.0
-tokenizers==0.15.0
+tokenizers==0.13.3
 
-# Training utils
-torchmetrics==1.2.0
-tensorboard==2.15.1
-wandb==0.16.0
+# PyTorch utilities
+torchtext==0.18.0
+torchmetrics==0.11.4
 
-# Visualization
-altair==5.2.0
+# TensorBoard for logging
+tensorboard==2.15.0
+
+# Standard utilities
+tqdm==4.66.1
+
+
