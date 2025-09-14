@@ -7,7 +7,7 @@ def get_config():
         "lr": 1e-4,
         "seq_len": 128,
         "d_model": 512,
-        "datasource": "cfilt_iitb-english-hindi",
+        "datasource": "cfilt/iitb-english-hindi",
         "lang_src": "en",
         "lang_tgt": "hi",
         "model_folder": "weights",
